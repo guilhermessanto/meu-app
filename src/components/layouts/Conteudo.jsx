@@ -1,9 +1,10 @@
 import Artigo from "../Artigo";
+import "./Conteudo.css";
 const Conteudo = () => {
   return (
     <main>
       <section>
-        <h2>Conteúdo do site</h2>
+        <h2 className="subtitulo">Conteúdo do site</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
           aliquid fugit perferendis, molestiae in architecto, suscipit magnam
