@@ -1,6 +1,6 @@
-import Cabecalho from "./components/layouts/Cabecalho";
-import Conteudo from "./components/layouts/Conteudo";
-import Footer from "./components/layouts/Footer";
+import Cabecalho from "./components/layouts/Cabecalho/Cabecalho";
+import Conteudo from "./components/layouts/Conteudo/Conteudo";
+import Footer from "./components/layouts/Footer/Footer";
 const App = () => {
   return (
     <>

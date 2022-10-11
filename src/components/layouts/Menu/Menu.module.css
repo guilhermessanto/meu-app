@@ -1,0 +1,13 @@
+.menuEstilo {
+  display: flex;
+  justify-content: space-evenly;
+}
+.menuEstilo a {
+  color: green;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menuEstilo a:hover {
+  color: white;
+}

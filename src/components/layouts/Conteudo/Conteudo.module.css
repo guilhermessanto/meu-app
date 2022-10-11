@@ -8,3 +8,11 @@ main {
   color: red;
   text-transform: uppercase;
 }
+.destaque {
+  background-color: yellowgreen;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+.sombra-texto {
+  text-shadow: black 1px 1px 3px;
+}
