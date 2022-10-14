@@ -8,9 +8,12 @@ const App = () => {
   return (
     <>
       {/* Fragmento */}
+      {/* BrowserRouter: Container de rotas (precisa envolver todos os componentes do app) */}
       <BrowserRouter>
         <Cabecalho />
+        {/*Switch: mecanismo para troca/alternância de rotas  */}
         <Switch>
+          {/* Route: configuração de cada rota (qual caminho, qual componente) */}
           <Route exact path="/">
             <Home />
           </Route>
