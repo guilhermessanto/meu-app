@@ -10,9 +10,17 @@ const App = () => {
       {/* Fragmento */}
       <BrowserRouter>
         <Cabecalho />
-        <Home />
-        <Produtos />
-        <Servicos />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/produtos">
+            <Produtos />
+          </Route>
+          <Route path="/servicos">
+            <Servicos />
+          </Route>
+        </Switch>
         <Footer />
       </BrowserRouter>
       {/* Fim fragmento */}
