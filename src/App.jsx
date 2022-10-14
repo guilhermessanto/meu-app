@@ -1,12 +1,16 @@
 import Cabecalho from "./components/layouts/Cabecalho";
-import Conteudo from "./components/layouts/Conteudo";
+import Home from "./pages/Home";
+import Produtos from "./pages/Produtos";
+import Servicos from "./pages/Servicos";
 import Footer from "./components/layouts/Footer";
 const App = () => {
   return (
     <>
       {/* Fragmento */}
       <Cabecalho />
-      <Conteudo />
+      <Home />
+      <Produtos />
+      <Servicos />
       <Footer />
       {/* Fim fragmento */}
     </>
